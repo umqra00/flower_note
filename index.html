@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="flower.css">
     <title>imissu</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#050b0e">
 </head>
-  
+
 <body class="not-loaded">
 
     <div class="night"></div>
@@ -21,7 +24,6 @@
                 <div class="flower__leaf flower__leaf--3"></div>
                 <div class="flower__leaf flower__leaf--4"></div>
 
-
                 <div class="flower__white-circle"></div>
 
                 <div class="flower__light flower__light--1"></div>
@@ -32,7 +34,6 @@
                 <div class="flower__light flower__light--6"></div>
                 <div class="flower__light flower__light--7"></div>
                 <div class="flower__light flower__light--8"></div>
-
             </div>
             <div class="flower__line">
                 <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -60,7 +61,6 @@
                 <div class="flower__light flower__light--6"></div>
                 <div class="flower__light flower__light--7"></div>
                 <div class="flower__light flower__light--8"></div>
-
             </div>
             <div class="flower__line">
                 <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -86,7 +86,6 @@
                 <div class="flower__light flower__light--6"></div>
                 <div class="flower__light flower__light--7"></div>
                 <div class="flower__light flower__light--8"></div>
-
             </div>
             <div class="flower__line">
                 <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -311,9 +310,6 @@
             </div>
         </div>
     </div>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 
     <div class="love-note">
         ahmet <span class="heart">♥</span> zeliha
@@ -331,7 +327,7 @@
 
         .love-note {
             position: fixed;
-            bottom: 14%;
+            bottom: calc(24% + env(safe-area-inset-bottom));
             left: 50%;
             transform: translateX(-50%);
             z-index: 9999;
