@@ -1,0 +1,10 @@
+﻿{
+  "name": "ahmet ♥ zeliha",
+  "short_name": "flower note",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050b0e",
+  "theme_color": "#050b0e"
+}
